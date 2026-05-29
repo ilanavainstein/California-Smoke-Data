@@ -27,4 +27,5 @@
 2. Only mobility: plot `anomaly_pct` for each `geometry` for each `date`, with blue representing negative mobility anomaly percent, white representing no anomaly, and red representing positive mobility anomaly percent.
 3. Side-by-side: both plots side-by-side, synced by `date`.
 4. Overlay: after normalizing `smokePM_pred` and `anomaly_pct`, plot `smoke_norm` from white to red and `mobility_norm` as white to blue, as a bivariate choropleth.
+5. Next-day mobility: make a new column, `mob_norm_next_day`, defined as `mobility_norm` for the follow date. Then plot exactly like the previous plot.
     
